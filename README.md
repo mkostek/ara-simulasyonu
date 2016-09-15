@@ -1,1 +1,2 @@
 # ara-simulasyonu
+laf olsun
