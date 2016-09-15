@@ -1,0 +1,76 @@
+C:\Users\Mert\Documents\SharpDevelop Projects\araç simulation\araç simulation\bin\Debug\araç simulation.exe.config
+C:\Users\Mert\Documents\SharpDevelop Projects\araç simulation\araç simulation\bin\Debug\araç simulation.exe
+C:\Users\Mert\Documents\SharpDevelop Projects\araç simulation\araç simulation\bin\Debug\araç simulation.pdb
+C:\Users\Mert\Documents\SharpDevelop Projects\araç simulation\araç simulation\obj\Debug\araç simulation.csprojResolveAssemblyReference.cache
+C:\Users\Mert\Documents\SharpDevelop Projects\araç simulation\araç simulation\obj\Debug\araç_simulation.MainForm.resources
+C:\Users\Mert\Documents\SharpDevelop Projects\araç simulation\araç simulation\obj\Debug\araç simulation.csproj.GenerateResource.Cache
+C:\Users\Mert\Documents\SharpDevelop Projects\araç simulation\araç simulation\obj\Debug\araç simulation.exe
+C:\Users\Mert\Documents\SharpDevelop Projects\araç simulation\araç simulation\obj\Debug\araç simulation.pdb
+C:\Users\Mert\Desktop\araç simulation\araç simulation\bin\Debug\araç simulation.exe.config
+C:\Users\Mert\Desktop\araç simulation\araç simulation\bin\Debug\araç simulation.exe
+C:\Users\Mert\Desktop\araç simulation\araç simulation\bin\Debug\araç simulation.pdb
+C:\Users\Mert\Desktop\araç simulation\araç simulation\obj\Debug\araç simulation.csprojResolveAssemblyReference.cache
+C:\Users\Mert\Desktop\araç simulation\araç simulation\obj\Debug\araç_simulation.MainForm.resources
+C:\Users\Mert\Desktop\araç simulation\araç simulation\obj\Debug\araç simulation.csproj.GenerateResource.Cache
+C:\Users\Mert\Desktop\araç simulation\araç simulation\obj\Debug\araç simulation.exe
+C:\Users\Mert\Desktop\araç simulation\araç simulation\obj\Debug\araç simulation.pdb
+C:\Users\Mert\Desktop\c#\araç simulation\araç simulation\obj\Debug\araç_simulation.MainForm.resources
+C:\Users\Mert\Desktop\c#\araç simulation\araç simulation\obj\Debug\araç simulation.csproj.GenerateResource.Cache
+C:\Users\Mert\Desktop\c#\araç simulation\araç simulation\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mert\Desktop\c#\araç simulation\araç simulation\bin\Debug\araç simülasyonu.exe.config
+C:\Users\Mert\Desktop\c#\araç simulation\araç simulation\bin\Debug\araç simülasyonu.exe
+C:\Users\Mert\Desktop\c#\araç simulation\araç simulation\bin\Debug\araç simülasyonu.pdb
+C:\Users\Mert\Desktop\c#\araç simulation\araç simulation\obj\Debug\araç simülasyonu.exe
+C:\Users\Mert\Desktop\c#\araç simulation\araç simulation\obj\Debug\araç simülasyonu.pdb
+D:\araç simulation\araç simulation\bin\Debug\araç simülasyonu.exe.config
+D:\araç simulation\araç simulation\bin\Debug\araç simülasyonu.exe
+D:\araç simulation\araç simulation\bin\Debug\araç simülasyonu.pdb
+D:\araç simulation\araç simulation\obj\Debug\araç_simulation.MainForm.resources
+D:\araç simulation\araç simulation\obj\Debug\araç simulation.csproj.GenerateResource.Cache
+D:\araç simulation\araç simulation\obj\Debug\araç simülasyonu.exe
+D:\araç simulation\araç simulation\obj\Debug\araç simülasyonu.pdb
+D:\araç simulation\araç simulation\obj\Debug\araç simulation.csprojResolveAssemblyReference.cache
+D:\32bit\araç simulation\araç simulation\bin\Debug\araç simülasyonu.exe.config
+D:\32bit\araç simulation\araç simulation\bin\Debug\araç simülasyonu.exe
+D:\32bit\araç simulation\araç simulation\bin\Debug\araç simülasyonu.pdb
+D:\32bit\araç simulation\araç simulation\obj\Debug\araç simulation.csprojResolveAssemblyReference.cache
+D:\32bit\araç simulation\araç simulation\obj\Debug\araç_simulation.MainForm.resources
+D:\32bit\araç simulation\araç simulation\obj\Debug\araç simulation.csproj.GenerateResource.Cache
+D:\32bit\araç simulation\araç simulation\obj\Debug\araç simülasyonu.exe
+D:\32bit\araç simulation\araç simulation\obj\Debug\araç simülasyonu.pdb
+D:\DRİVER FİLES\araç simulation\araç simulation\obj\Debug\araç simulation.csprojResolveAssemblyReference.cache
+D:\DRİVER FİLES\araç simulation\araç simulation\obj\Debug\araç_simulation.MainForm.resources
+D:\DRİVER FİLES\araç simulation\araç simulation\obj\Debug\araç simulation.csproj.GenerateResource.Cache
+D:\DRİVER FİLES\araç simulation\araç simulation\bin\Debug\vehicle simulation.exe.config
+D:\DRİVER FİLES\araç simulation\araç simulation\bin\Debug\vehicle simulation.exe
+D:\DRİVER FİLES\araç simulation\araç simulation\bin\Debug\vehicle simulation.pdb
+D:\DRİVER FİLES\araç simulation\araç simulation\obj\Debug\vehicle simulation.exe
+D:\DRİVER FİLES\araç simulation\araç simulation\obj\Debug\vehicle simulation.pdb
+C:\Users\mustafa\Desktop\MUSTAFA\araç simulation\araç simulation\bin\Debug\vehicle simulation.exe.config
+C:\Users\mustafa\Desktop\MUSTAFA\araç simulation\araç simulation\bin\Debug\vehicle simulation.exe
+C:\Users\mustafa\Desktop\MUSTAFA\araç simulation\araç simulation\bin\Debug\vehicle simulation.pdb
+C:\Users\mustafa\Desktop\MUSTAFA\araç simulation\araç simulation\obj\Debug\araç simulation.csprojResolveAssemblyReference.cache
+C:\Users\mustafa\Desktop\MUSTAFA\araç simulation\araç simulation\obj\Debug\araç_simulation.MainForm.resources
+C:\Users\mustafa\Desktop\MUSTAFA\araç simulation\araç simulation\obj\Debug\araç simulation.csproj.GenerateResource.Cache
+C:\Users\mustafa\Desktop\MUSTAFA\araç simulation\araç simulation\obj\Debug\vehicle simulation.exe
+C:\Users\mustafa\Desktop\MUSTAFA\araç simulation\araç simulation\obj\Debug\vehicle simulation.pdb
+D:\Documents and Settings\Administrator\Desktop\araç simulation\araç simulation\bin\Debug\vehicle simulation.exe.config
+D:\Documents and Settings\Administrator\Desktop\araç simulation\araç simulation\bin\Debug\vehicle simulation.exe
+D:\Documents and Settings\Administrator\Desktop\araç simulation\araç simulation\bin\Debug\vehicle simulation.pdb
+D:\Documents and Settings\Administrator\Desktop\araç simulation\araç simulation\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\Administrator\Desktop\araç simulation\araç simulation\obj\Debug\araç_simulation.MainForm.resources
+D:\Documents and Settings\Administrator\Desktop\araç simulation\araç simulation\obj\Debug\GenerateResource.read.1.tlog
+D:\Documents and Settings\Administrator\Desktop\araç simulation\araç simulation\obj\Debug\GenerateResource.read.4.tlog
+D:\Documents and Settings\Administrator\Desktop\araç simulation\araç simulation\obj\Debug\GenerateResource.write.1.tlog
+D:\Documents and Settings\Administrator\Desktop\araç simulation\araç simulation\obj\Debug\vehicle simulation.exe
+D:\Documents and Settings\Administrator\Desktop\araç simulation\araç simulation\obj\Debug\vehicle simulation.pdb
+D:\Documents and Settings\Administrator\Desktop\araç simulation\ara-simulasyonu.git\branches\start\araç simulation\bin\Debug\vehicle simulation.exe.config
+D:\Documents and Settings\Administrator\Desktop\araç simulation\ara-simulasyonu.git\branches\start\araç simulation\bin\Debug\vehicle simulation.exe
+D:\Documents and Settings\Administrator\Desktop\araç simulation\ara-simulasyonu.git\branches\start\araç simulation\bin\Debug\vehicle simulation.pdb
+D:\Documents and Settings\Administrator\Desktop\araç simulation\ara-simulasyonu.git\branches\start\araç simulation\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\Administrator\Desktop\araç simulation\ara-simulasyonu.git\branches\start\araç simulation\obj\Debug\araç_simulation.MainForm.resources
+D:\Documents and Settings\Administrator\Desktop\araç simulation\ara-simulasyonu.git\branches\start\araç simulation\obj\Debug\GenerateResource.read.1.tlog
+D:\Documents and Settings\Administrator\Desktop\araç simulation\ara-simulasyonu.git\branches\start\araç simulation\obj\Debug\GenerateResource.read.4.tlog
+D:\Documents and Settings\Administrator\Desktop\araç simulation\ara-simulasyonu.git\branches\start\araç simulation\obj\Debug\GenerateResource.write.1.tlog
+D:\Documents and Settings\Administrator\Desktop\araç simulation\ara-simulasyonu.git\branches\start\araç simulation\obj\Debug\vehicle simulation.exe
+D:\Documents and Settings\Administrator\Desktop\araç simulation\ara-simulasyonu.git\branches\start\araç simulation\obj\Debug\vehicle simulation.pdb
