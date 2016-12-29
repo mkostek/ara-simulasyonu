@@ -74,3 +74,19 @@ D:\Documents and Settings\Administrator\Desktop\araç simulation\ara-simulasyonu
 D:\Documents and Settings\Administrator\Desktop\araç simulation\ara-simulasyonu.git\branches\start\araç simulation\obj\Debug\GenerateResource.write.1.tlog
 D:\Documents and Settings\Administrator\Desktop\araç simulation\ara-simulasyonu.git\branches\start\araç simulation\obj\Debug\vehicle simulation.exe
 D:\Documents and Settings\Administrator\Desktop\araç simulation\ara-simulasyonu.git\branches\start\araç simulation\obj\Debug\vehicle simulation.pdb
+C:\Users\musta\Desktop\ara-simulasyonu-master\araç simulation\bin\Debug\vehicle simulation.exe.config
+C:\Users\musta\Desktop\ara-simulasyonu-master\araç simulation\bin\Debug\vehicle simulation.exe
+C:\Users\musta\Desktop\ara-simulasyonu-master\araç simulation\bin\Debug\vehicle simulation.pdb
+C:\Users\musta\Desktop\ara-simulasyonu-master\araç simulation\obj\Debug\araç simulation.csprojResolveAssemblyReference.cache
+C:\Users\musta\Desktop\ara-simulasyonu-master\araç simulation\obj\Debug\araç_simulation.MainForm.resources
+C:\Users\musta\Desktop\ara-simulasyonu-master\araç simulation\obj\Debug\araç simulation.csproj.GenerateResource.Cache
+C:\Users\musta\Desktop\ara-simulasyonu-master\araç simulation\obj\Debug\vehicle simulation.exe
+C:\Users\musta\Desktop\ara-simulasyonu-master\araç simulation\obj\Debug\vehicle simulation.pdb
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu-master\araç simulation\bin\Debug\vehicle simulation.exe.config
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu-master\araç simulation\bin\Debug\vehicle simulation.exe
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu-master\araç simulation\bin\Debug\vehicle simulation.pdb
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu-master\araç simulation\obj\Debug\araç simulation.csprojResolveAssemblyReference.cache
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu-master\araç simulation\obj\Debug\araç_simulation.MainForm.resources
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu-master\araç simulation\obj\Debug\araç simulation.csproj.GenerateResource.Cache
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu-master\araç simulation\obj\Debug\vehicle simulation.exe
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu-master\araç simulation\obj\Debug\vehicle simulation.pdb

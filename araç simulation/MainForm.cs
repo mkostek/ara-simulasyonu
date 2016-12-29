@@ -7,12 +7,16 @@
  * Bu şablonu değiştirmek için Araçlar | Seçenekler | Kodlama | Standart Başlıkları Düzenle 'yi kullanın.
  */
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
+using System.Media;
+using System.Threading;
 using System.Windows.Forms;
-
+using System.Diagnostics;
+using System.Threading;
 //using System.Windows.Forms.PropertyGridInt
 namespace araç_simulation
 {
@@ -40,6 +44,10 @@ namespace araç_simulation
 			public double k;
 
 		}
+
+		int akıl=0;
+		public SoundPlayer player;
+		//bool[] hulle=new bool[14]{true,false,false,false,false,false,false,false,false,false,false,false,false,false};
 		bool mod=false;//sabitleyici için
 		double a;//ivme skaler değeri
 		int[] devir=new int[15];//16 boyutlu vektörde tanımlı 15 devir aralığı
@@ -50,7 +58,7 @@ namespace araç_simulation
 		double[] teker=new double[3];//teker üçlü ölçüsü burada tutuluyor
 		double cons;//tüketim değerleri katsayıları gaza ve devire
 		double hava;//havanın sürtünme kuvveti
-		double k=0.011;//varsayılan yerin sürtünme kuvveti
+		double k=0.02;//varsayılan yerin sürtünme kuvveti
 		int kilo;//aracın ağırlığı kilo cinsinden
 		double hiz=0;//başlangıç offset hızı
 		double sbhiz;//hız sabitleyicinin sabitlendiği vites
@@ -62,9 +70,9 @@ namespace araç_simulation
 		double dev;//devir değişkeni program koşarken herbir sefer de güncellenecektir
 		double[] tor=new double[2];//aracın tekerleklere aktardığı N cinsinden kuvvet
 		double max;//maksimum devir değeri
-		double menzil=32000;//varsayılan başlangıç mesafesi
+		double menzil=5000;//varsayılan başlangıç mesafesi
 		int egim=1;//1 ise yukarı 0 ise aşağı
-		double aci=3.1;//eğim açısı varsayılan 0
+		double aci=0;//eğim açısı varsayılan 0
 		int hassas=1;//program koşarken timer1 in hassassiyet değerini hesaplar
 		double rakim=0;//aracın referans konumdan ne kadar yüksekte yada aşağıda olduğunu tanımlayacak olan degerdir
 		double aktarma;//tork değeri hesaplanırken aktarma organlarındaki hesapta kullanılacktır
@@ -80,8 +88,9 @@ namespace araç_simulation
 		int tipSayici=0;
 		yol[] tip=new yol[20];
 		int[] yi=new int[2];
+		int onceki=0,sonraki;
 		//araçlar ve harita çekmek için bir bağlantıya ihtiyacımız var
-
+		
 		void gazFren()//gaz fren değerleri program koşarken almamız gerekecek
 		{
 			if(mod==false)//hız sabitleyeci yoksa
@@ -180,64 +189,67 @@ namespace araç_simulation
 			}
 			
 			aktarma=g*sonDisli/(teker[0]*1.77/100);//Bu değerle motordan tekere tork kontrol ediliyor
-			if(dev>=tickover&&dev<26)//bu devir aralığında motor ne kadar tork üretiyor
+			if(dev>=tickover&&dev<16)//bu devir aralığında motor ne kadar tork üretiyor
 			{
 				tor[0]=(double)thr*devir[0];//ilgili deviri gaza basıldığı kadar
+				//	hulle[0]=false;
 			}
-			else if(dev>=26&&dev<35)
+			else if(dev>=16&&dev<25)
 			{
 				tor[0]=(double)thr*devir[1];
+				//	hulle[1]=false;
 			}
-			else if(dev>=35&&dev<44)
+			else if(dev>=25&&dev<34)
 			{
 				tor[0]=(double)thr*devir[2];
+				//	hulle[2]=false;
 			}
-			else if(dev>=44&&dev<53)
-			{
+			else if(dev>=34&&dev<43)
+			{//hulle[3]=false;
 				tor[0]=(double)thr*devir[3];
 			}
-			else if(dev>=53&&dev<62)
-			{
+			else if(dev>=43&&dev<52)
+			{//hulle[4]=false;
 				tor[0]=(double)thr*devir[4];
 			}
-			else if(dev>=62&&dev<71)
-			{
+			else if(dev>=52&&dev<61)
+			{//hulle[5]=false;
 				tor[0]=(double)thr*devir[5];
 			}
-			else if(dev>=71&&dev<80)
-			{
+			else if(dev>=61&&dev<70)
+			{//hulle[6]=false;
 				tor[0]=(double)thr*devir[6];
 			}
-			else if(dev>=80&&dev<89)
-			{
+			else if(dev>=70&&dev<79)
+			{//hulle[7]=false;
 				tor[0]=(double)thr*devir[7];
 			}
-			else if(dev>=89&&dev<98)
-			{
+			else if(dev>=79&&dev<88)
+			{//hulle[8]=false;
 				tor[0]=(double)thr*devir[8];
 			}
-			else if(dev>=98&&dev<107)
-			{
+			else if(dev>=88&&dev<97)
+			{//hulle[9]=true;
 				tor[0]=(double)thr*devir[9];
 			}
-			else if(dev>=107&&dev<116)
-			{
+			else if(dev>=97&&dev<106)
+			{//hulle[10]=false;
 				tor[0]=(double)thr*devir[10];
 			}
-			else if(dev>=116&&dev<125)
-			{
+			else if(dev>=106&&dev<115)
+			{//hulle[11]=false;
 				tor[0]=(double)thr*devir[11];
 			}
-			else if(dev>=125&&dev<134)
-			{
+			else if(dev>=115&&dev<124)
+			{//hulle[11]=false;
 				tor[0]=(double)thr*devir[12];
 			}
-			else if(dev>=134&&dev<143)
-			{
+			else if(dev>=124&&dev<133)
+			{//hulle[11]=false;
 				tor[0]=(double)thr*devir[13];
 			}
-			else if(dev>=143&&dev<152)
-			{
+			else if(dev>=133&&dev<142)
+			{//hulle[11]=false;
 				tor[0]=(double)thr*devir[14];
 			}
 			tor[1]=tor[0]*aktarma;
@@ -326,7 +338,6 @@ namespace araç_simulation
 			}
 			
 			hiz+=a/hassas;//hıza hassasiyet değeri kadar ivme etki et
-			
 			if(hiz<0)//hiz sıfırdan küçükse 0 la
 				hiz=0;
 			menzil-=(double)hiz/hassas;//menzil değerini her geçilen mesafede azalt
@@ -359,10 +370,22 @@ namespace araç_simulation
 			label9.Text=((int)menzil).ToString();//yazdır değeri menzil
 			label10.Text=Math.Tan(aci/57).ToString();//yazdır eğimi
 			aquaGauge2.DialText=gear.ToString()+". vites";
+			int der;
+			
+			if(dev<tickover)der=(int)tickover;else der=(int)dev;
+		  sonraki=(int)((der*60)/300);
+			if(sonraki!=onceki){
+				onceki=sonraki;
+				System.Diagnostics.Process.Start(@"C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu-master\araç simulation\bin\Debug\soundstretch.exe", @"engine.wav output.wav -rate="+(int)(der-100)+" -tempo="+(int)(der-100));
+				
+				Thread.Sleep(250);
+				player = new SoundPlayer("output.wav");
+				player.PlayLooping();
+				}
 		}
 		void MainFormLoad(object sender, EventArgs e)
 		{
-			
+
 			OleDbCommand komut=new OleDbCommand();//load da acces bağlantısı prosedürel işlemleri
 			komut.CommandType=CommandType.Text;
 			komut.Connection=baglanti;
@@ -400,7 +423,8 @@ namespace araç_simulation
 			button4.BackColor=Color.BlueViolet;
 		}
 		void Timer1Tick(object sender, EventArgs e)
-		{
+		{	
+//AudioPlaybackEngine.Instance.Dispose();
 			gazFren();//gaz fren oku hız sabitleyici kontrol et
 			hesapla();//vites değerini kontrol et gaza göre tork hızı hesapla
 			deger();//değerleri forma gönder
@@ -471,10 +495,11 @@ namespace araç_simulation
 			switch (e.Button)
 			{
 				case MouseButtons.Left://mouse sol clik olduğunda
-
+					player=new SoundPlayer("gear.wav");
 					if(gear!=vitesSayisi)
 					{
 						gear++;
+						
 						textBox1.AppendText((gear).ToString()+","+(int)hiz*3.6+","+(int)dev*60+","+(gear-1)+"\n");
 						tab.Rows.Add((gear).ToString(),hiz/25,dev/25,gear-1);//tabloya kayıt ekle
 						if(gear==vitesSayisi)
@@ -489,7 +514,7 @@ namespace araç_simulation
 					}
 					break;
 				case MouseButtons.Right://sağ clik edildiğinde
-					
+					player=new SoundPlayer("gear.wav");
 					if(gear!=1)
 					{
 						if(gear==vitesSayisi)
@@ -514,6 +539,8 @@ namespace araç_simulation
 				default:
 					break;
 			}
+			player.Play();
+			onceki=0;
 			aquaGauge2.DialText=gear.ToString()+". vites";//label7 e gear yaz
 		}
 		
