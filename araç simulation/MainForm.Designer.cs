@@ -76,6 +76,7 @@ namespace araç_simulation
 			this.label4 = new System.Windows.Forms.Label();
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.label5 = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.chartBirinciDerece)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.menuStrip1.SuspendLayout();
@@ -195,7 +196,7 @@ namespace araç_simulation
 			resources.ApplyResources(this.aquaGauge1, "aquaGauge1");
 			this.aquaGauge1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.aquaGauge1.Glossiness = 11.36364F;
-			this.aquaGauge1.MaxValue = 240F;
+			this.aquaGauge1.MaxValue = 360F;
 			this.aquaGauge1.MinValue = 0F;
 			this.aquaGauge1.Name = "aquaGauge1";
 			this.aquaGauge1.NoOfDivisions = 8;
@@ -363,11 +364,17 @@ namespace araç_simulation
 			resources.ApplyResources(this.label5, "label5");
 			this.label5.Name = "label5";
 			// 
+			// label7
+			// 
+			resources.ApplyResources(this.label7, "label7");
+			this.label7.Name = "label7";
+			// 
 			// MainForm
 			// 
 			resources.ApplyResources(this, "$this");
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
 			this.BackColor = System.Drawing.SystemColors.Control;
+			this.Controls.Add(this.label7);
 			this.Controls.Add(this.label5);
 			this.Controls.Add(this.textBox1);
 			this.Controls.Add(this.label4);
@@ -411,6 +418,7 @@ namespace araç_simulation
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.TextBox textBox1;
 		private System.Windows.Forms.Label label4;

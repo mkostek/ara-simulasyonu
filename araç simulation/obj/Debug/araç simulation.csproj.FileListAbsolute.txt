@@ -90,3 +90,19 @@ C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu-master\araç simulation\obj\Debug
 C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu-master\araç simulation\obj\Debug\araç simulation.csproj.GenerateResource.Cache
 C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu-master\araç simulation\obj\Debug\vehicle simulation.exe
 C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu-master\araç simulation\obj\Debug\vehicle simulation.pdb
+C:\Users\musta\Desktop\ara-simulasyonu\araç simulation\bin\Debug\vehicle simulation.exe.config
+C:\Users\musta\Desktop\ara-simulasyonu\araç simulation\bin\Debug\vehicle simulation.exe
+C:\Users\musta\Desktop\ara-simulasyonu\araç simulation\bin\Debug\vehicle simulation.pdb
+C:\Users\musta\Desktop\ara-simulasyonu\araç simulation\obj\Debug\araç simulation.csprojResolveAssemblyReference.cache
+C:\Users\musta\Desktop\ara-simulasyonu\araç simulation\obj\Debug\araç_simulation.MainForm.resources
+C:\Users\musta\Desktop\ara-simulasyonu\araç simulation\obj\Debug\araç simulation.csproj.GenerateResource.Cache
+C:\Users\musta\Desktop\ara-simulasyonu\araç simulation\obj\Debug\vehicle simulation.exe
+C:\Users\musta\Desktop\ara-simulasyonu\araç simulation\obj\Debug\vehicle simulation.pdb
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu\araç simulation\bin\Debug\vehicle simulation.exe.config
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu\araç simulation\bin\Debug\vehicle simulation.exe
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu\araç simulation\bin\Debug\vehicle simulation.pdb
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu\araç simulation\obj\Debug\araç simulation.csprojResolveAssemblyReference.cache
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu\araç simulation\obj\Debug\araç_simulation.MainForm.resources
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu\araç simulation\obj\Debug\araç simulation.csproj.GenerateResource.Cache
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu\araç simulation\obj\Debug\vehicle simulation.exe
+C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu\araç simulation\obj\Debug\vehicle simulation.pdb

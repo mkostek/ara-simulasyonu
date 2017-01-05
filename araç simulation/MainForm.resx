@@ -148,7 +148,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chartBirinciDerece.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>27</value>
   </data>
   <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -178,7 +178,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>26</value>
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -205,7 +205,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>25</value>
   </data>
   <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -232,7 +232,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>24</value>
   </data>
   <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -259,7 +259,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>23</value>
   </data>
   <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -286,7 +286,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>22</value>
   </data>
   <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -316,7 +316,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -343,7 +343,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="label22.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -370,7 +370,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -400,7 +400,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -427,7 +427,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="progressBar3.Location" type="System.Drawing.Point, System.Drawing">
     <value>747, 467</value>
@@ -451,7 +451,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;progressBar3.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="progressBar2.Location" type="System.Drawing.Point, System.Drawing">
     <value>747, 428</value>
@@ -475,7 +475,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;progressBar2.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
     <value>283, 541</value>
@@ -496,7 +496,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="aquaGauge1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -523,7 +523,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;aquaGauge1.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="aquaGauge2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -553,7 +553,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;aquaGauge2.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -583,7 +583,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>341, 436</value>
@@ -604,7 +604,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
     <value>341, 661</value>
@@ -625,7 +625,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -652,7 +652,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -679,7 +679,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -706,7 +706,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="pictureBox1.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -730,7 +730,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>100, 17</value>
@@ -2388,7 +2388,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>28</value>
   </data>
   <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -2418,7 +2418,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 11.25pt</value>
@@ -2448,7 +2448,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 9.25pt</value>
@@ -2478,7 +2478,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 227</value>
@@ -2502,6 +2502,30 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>715, 673</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
