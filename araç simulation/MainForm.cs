@@ -198,8 +198,8 @@ namespace araç_simulation
 				if(harita==false)
 				{
 					Random r=new Random();//randomdan rastgele değer
-					menzil=r.Next(1000,3000);//
-					aci=r.Next(25,200);aci/=50;//
+					menzil=r.Next(100,500);//
+					aci=r.Next(0,200);aci/=100;//
 					egim=r.Next(0,2);//0 sa aşağı 1 yukarı
 				}
 				else
@@ -280,8 +280,11 @@ namespace araç_simulation
 			
 			if(dev<tickover)der=(int)tickover;else der=(int)dev;
 		  sonraki=(int)((der*60)/300);
+		  if(der<10)
+		  	der=12;
 			if(sonraki!=onceki && dev<max){
-				onceki=sonraki;
+		  	onceki=sonraki;
+		  	
 				System.Diagnostics.Process.Start(@"soundstretch.exe", @"engine.wav output.wav -rate="+(int)(der-100)+" -tempo="+(int)(der-100));
 				
 				Thread.Sleep(250);
@@ -512,10 +515,15 @@ namespace araç_simulation
 				pictureBox1.Image=Image.FromFile(rd["pic"].ToString());
 				pictureBox1.SizeMode=PictureBoxSizeMode.StretchImage;
 				//pictureBox1.Size=1024;;
-				aquaGauge2.MaxValue=(((int)max*60)/1000+1)*1000;
-				aquaGauge2.NoOfDivisions=(int)(max*60/1000)+1;
+				aquaGauge2.MaxValue=(((int)max*60)/500+1)*500;
+				aquaGauge2.NoOfDivisions=(int)(max*60/500)+1;
 				hava=Convert.ToDouble(rd["genislik"])*Convert.ToDouble(rd["yukseklik"])*Convert.ToDouble(rd["cw"]);
-				
+				double n=(double)(teker[0]*25.4+teker[1]*(teker[2]/100)*2)*3.14*max/(sonDisli*1000);
+				int nfds=(int)(((n/vites[vitesSayisi-1])*3.6)/20)+1;
+				aquaGauge1.NoOfDivisions=nfds;
+				aquaGauge1.MaxValue=nfds*20;
+				aquaGauge1.MinValue=0;
+					
 			}
 			
 

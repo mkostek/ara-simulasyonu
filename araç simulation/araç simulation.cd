@@ -12,12 +12,12 @@
       <Compartment Name="Methods" Collapsed="True" />
     </Compartments>
   </Class>
-  <Class Name="araç_simulation.Classifier" Collapsed="False">
+  <Class Name="araç_simulation.Classifier" Collapsed="True">
     <Position X="0.5" Y="7.9" Width="2.3" />
     <Compartments>
-      <Compartment Name="Properties" Collapsed="False" />
-      <Compartment Name="Methods" Collapsed="False" />
-      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Properties" Collapsed="True" />
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
     </Compartments>
   </Class>
   <Class Name="araç_simulation.MainForm" Collapsed="False">

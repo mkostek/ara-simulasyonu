@@ -106,3 +106,11 @@ C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu\araç simulation\obj\Debug\araç_
 C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu\araç simulation\obj\Debug\araç simulation.csproj.GenerateResource.Cache
 C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu\araç simulation\obj\Debug\vehicle simulation.exe
 C:\Users\musta\Desktop\MUSTAFA\ara-simulasyonu\araç simulation\obj\Debug\vehicle simulation.pdb
+C:\Users\MERT\Desktop\ara-simulasyonu-2\araç simulation\bin\Debug\vehicle simulation.exe.config
+C:\Users\MERT\Desktop\ara-simulasyonu-2\araç simulation\obj\Debug\vehicle simulation.exe
+C:\Users\MERT\Desktop\ara-simulasyonu-2\araç simulation\obj\Debug\vehicle simulation.pdb
+C:\Users\MERT\Desktop\ara-simulasyonu-2\araç simulation\bin\Debug\vehicle simulation.exe
+C:\Users\MERT\Desktop\ara-simulasyonu-2\araç simulation\bin\Debug\vehicle simulation.pdb
+C:\Users\MERT\Desktop\ara-simulasyonu-2\araç simulation\obj\Debug\araç simulation.csprojResolveAssemblyReference.cache
+C:\Users\MERT\Desktop\ara-simulasyonu-2\araç simulation\obj\Debug\araç_simulation.MainForm.resources
+C:\Users\MERT\Desktop\ara-simulasyonu-2\araç simulation\obj\Debug\araç simulation.csproj.GenerateResource.Cache
